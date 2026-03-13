@@ -11,9 +11,9 @@ function calculateGrade(score) {
 }
 
 document.getElementById('calculate').addEventListener('click', function() {
-    const sub1 = parseFloat(document.getElementById('sub1').value);
-    const sub2 = parseFloat(document.getElementById('sub2').value);
-    const sub3 = parseFloat(document.getElementById('sub3').value);
+    const sub1 = parseInt(document.getElementById('sub1').value);
+    const sub2 = parseInt(document.getElementById('sub2').value);
+    const sub3 = parseInt(document.getElementById('sub3').value);
 
 
 const average = (sub1 + sub2 + sub3) / 3;
